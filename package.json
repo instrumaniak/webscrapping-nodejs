@@ -1,0 +1,16 @@
+{
+  "name": "webscrapping-nodejs",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A minimal webscrapping tool",
+  "scripts": {
+    "download": "node ./src/downloadFiles.js",
+    "scrap": "node ./src/scrapper.js",
+    "clean": "rm ./data/*.*"
+  },
+  "author": "Raziur Rahman",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "jsdom": "^16.2.2"
+  }
+}
